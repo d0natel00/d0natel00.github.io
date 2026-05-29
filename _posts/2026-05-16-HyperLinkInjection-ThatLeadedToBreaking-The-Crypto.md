@@ -3,12 +3,12 @@ title: "I Got HyperLink Injection and Breaking a Cryptography Signed OpenRedirec
 date: 2026-05-16 00:00:00 +0000
 categories: [Web,Injection]
 tags: [Hyper Link Injection, Open Redirect, Poor Design]
+image:
+  path: ../assets/img/POST(2)/a1d2afee8c6f974777a013df4b1cae23.jpg
+  alt: Jesse
 ---
 
 Hello Friend, Today I’m Going To Explain How I Found a Hyperlink Injection Vulnerability With Update Email () . It Leaded To Generating Cryptography Signed Trusted Links Without Knowing the Secret Key (Breaking Open Redirect) !
-
-![Jesse Tired of “By Design” Word, But He Will Figure It Out To Get a Valid Bug and Make Them Approve](../assets/img/POST(2)/a1d2afee8c6f974777a013df4b1cae23.jpg)
-*Jesse Tired of “By Design” Word, But He Will Figure It Out To Get a Valid Bug and Make Them Approve*
 
 ---
 
