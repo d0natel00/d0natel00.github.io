@@ -1,7 +1,7 @@
 ---
 title: "I Got HyperLink Injection and Breaking a Cryptography Signed OpenRedirect Because One Simple Mistake and Made It Extremely Perfect Because What They Call it By Design"
 date: 2026-05-16 00:00:00 +0000
-categories: [Web]
+categories: [Web,Injection]
 tags: [Hyper Link Injection, Open Redirect, Poor Design]
 ---
 
