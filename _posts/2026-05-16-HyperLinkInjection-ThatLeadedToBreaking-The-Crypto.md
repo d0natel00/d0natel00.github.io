@@ -46,7 +46,7 @@ And What I Expected Happened, We Got Hyperlink Injection Via Updating Email Func
 ![HyperLink Injection Exists](../assets/img/POST(2)/6.png)
 *We Have Got HLI Successfully Via Update Email Function*
 
-And I Got Another Something Interesting, When My Mouse Was Over the <a> Tag Gift . It Appeared Under
+And I Got Another Something Interesting, When My Mouse Was Over the (a) Tag Gift . It Appeared Under
 
 ```
 http://click.<redacted>.com/ss/c/u001.ovViWmuu4Gczm1GLN92JiQk_MXUaimqdAbCwFNYr2Xg/4qn/M4ftzsaZRLCAw3BR7QYzdQ/h5/h001.M2q3JRO1BWqfnhJfGYH1IZmYirXW38svDk40WJK3xm8
