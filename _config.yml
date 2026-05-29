@@ -16,7 +16,7 @@ timezone:
 
 title: KirolosMoheb
 
-tagline: I Hack Until the Clock Reaches 0x00 # it will display as the subtitle
+tagline: I Hack Until the Clock Reaches 0x0 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Personal Blog For KirolosMoheb(D0NATEL00). Explaining Bugs, Vulnerabilities he Found and Other Security Stuff !
@@ -99,7 +99,7 @@ theme_mode: dark
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: images/me.jpg
+avatar: assets/img/me.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

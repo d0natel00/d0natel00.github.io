@@ -8,9 +8,9 @@ Hello Friend, I'm **KirolosMoheb**(_**D0NATEL00**_) This is My Blog To Publish a
 
 This is My [HackerOne Handle](https://hackerone.com/kirolosmoheb?type=user) and [Medium Blog](https://d0natel00.medium.com/) 
 
-You Can Reach Me On [Contact Email](mailto:contact.me.kiro@gmail.com)
+You Can Reach Me On [Contact Email](mailto:contact.me.kiro@gmail.com) . 
 
-#### I Got Bugs in :
+#### Companies I Got Bugs On (Public):
 - [Mars](https://www.mars.com/)
 - [Luminor Bank](https://luminor.ee)
 
