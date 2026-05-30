@@ -11,7 +11,7 @@ image:
 
 Hello Friend, I Hope You Are Doing Good ! Today I’m Going To Explain Wordpress Hacking; When We Can Legally Get Into Wordpress Sites .
 
-\### **Why Wordpress ?**
+### **Why Wordpress ?**
 
 Wordpress is Running _~43%_ of \[All Sites in the Internet\], It’s Every Where .
 
@@ -33,7 +33,7 @@ That’s For Some Reasons :
 
 #### Information Exposures :
 
-**\### Version Disclosures & Site Infrastructure :**
+### Version Disclosures & Site Infrastructure :
 
 _Often, Version Disclosures Are Considered As_ **_Informative or N/A_** _in Most Situation. Except,_ **_You Are Able To Get a POC That You Can Exploit a Vulnerable Version of a Software_** _._
 
@@ -77,7 +77,7 @@ Often, Paths Which Triggers Errors Are :
 ![Apache/2.4.41](../assets/img/POST(3)/6.png)
 *Apache/2.4.41*
 
-\### **Sensitive Exposures :**
+### **Sensitive Exposures :**
 
 1.  **I Sometimes Found Backups Of Wordpress Forbidden Files By Just Adding Extensions Like .txt,.bak,etc.**
 
@@ -489,7 +489,7 @@ Response
 
 **_Wordpress Nature is Easy To Crawl_** _That’s Make Web Spiders Crawl Urls Pages Content That Can Contain Sensitive Data . Which Can Be Got From Google Dorks and Sites Like_ [**_Waybackmachine_**](https://web.archive.org/)_._
 
-**\## Most Used Search Keys in Wordpress Google Dorking** :
+## Most Used Search Keys in Wordpress Google Dorking :
 
 *   **inurl:**
 *   **site:**
@@ -510,13 +510,13 @@ Response
 
 **\[+\] You Can Juicy Data From Wordpress Google Dorks**
 
-\## Tools :
+## Tools :
 
 *   katana \[[https://github.com/projectdiscovery/katana](https://github.com/projectdiscovery/katana)\]
 *   waymore \[[https://github.com/xnl-h4ck3r/waymore](https://github.com/xnl-h4ck3r/waymore)\]
 *   gau \[[https://github.com/lc/gau](https://github.com/lc/gau)\]
 
-**\## Katana :**
+#### Katana :
 
 ```bash
 katana -u https://example.com/
@@ -525,7 +525,7 @@ katana -u https://example.com/
 ![](../assets/img/POST(3)/45.png)
 *Crawling*
 
-**\## Waymore :**
+#### Waymore :
 
 ```bash
 waymore -i example.com-mode U -oU waymore-Output\_example.com.txt
@@ -539,7 +539,7 @@ waymore -i example.com-mode U -oU waymore-Output\_example.com.txt
 
 ![](../assets/img/POST(3)/30.png)
 
-**\## Gau (Get All Urls) :**
+#### Gau (Get All Urls) :
 
 ```bash
 gau example.com --subs
@@ -548,7 +548,7 @@ gau example.com --subs
 ![](../assets/img/POST(3)/31.png)
 *gau*
 
-**\### Combine :**
+##### Combine :
 
 ```bash
 cat gau-Output_dsu.edu.pk.txt  waymore-Output_dsu.edu.pk.txt | uro | sort -u > combined_sorted_output.txt
@@ -566,7 +566,7 @@ You Can Use [**GHDB**](https://www.exploit-db.com/google-hacking-database) (Goog
 
 #### Login Bruteforcing : (With & Without xmlrpc.php)
 
-**\## XMLRPC Enabled : \[Tool →**[**wpscan**](https://github.com/wpscanteam/wpscan)**\] (Reliable)**
+#### XMLRPC Enabled : \[Tool →**[wpscan](https://github.com/wpscanteam/wpscan)**\] (Reliable)
 
 **We Can the Method system.multicall + wp.getUserBlogs \[Require Creds\] To Brute Forcing a Wordpress Site .**
 
@@ -638,14 +638,17 @@ wpscan --url http://example.com --usernames target_user --passwords rockyou.txt
 ![](https://cdn-images-1.medium.com/max/800/1*Di_8rTjmzlvPnCIo3CWGbw.png)
 *32 Seconds*
 
-**\## XMLRPC Disabled : \[Tool →**[**hydra**](https://www.kali.org/tools/hydra/)**\] (Less Reliable)**
+**## XMLRPC Disabled : \[Tool →**[**hydra**](https://www.kali.org/tools/hydra/)**\] (Less Reliable)**
 
 _Brute Forcing Wordpress Like Any Other Site_. Always, **Slow and If there Are Captcha and RateLimiting it Becomes Harder But Not Impossible There Are Techniques To Bypass Those Obstacles .**
 
-hydra -t \[threads-number\] -l target\_user -P rockyou.txt target\_ip\_or\_domain http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:F=ERROR"  
-\# -L for usernames file -p for\_single\_password F= --> Fail Message, S= --> Success Message
+```bash
+hydra -t \[threads-number\] -l target_user -P rockyou.txt target_ip or domain http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:F=ERROR"  
+```
 
-![](https://cdn-images-1.medium.com/max/800/1*T6ikuMChkErXUhtBJZo9aw.png)
+> -L for usernames file -p for\_single\_password F= --> Fail Message, S= --> Success Message
+
+![](../assets/img/POST(3)/41.png)
 *3 Minutes*
 
 * * *
@@ -658,12 +661,12 @@ hydra -t \[threads-number\] -l target\_user -P rockyou.txt target\_ip\_or\_domai
 
 **Ally : CVE-2026–2413 : SQL Injection : Severity → High**
 
-![](https://cdn-images-1.medium.com/max/800/1*Y7QEmINNIyjBDAtY7HrYrg.png)
+![](../assets/img/POST(3)/36.png)
 *Ally*
 
-![](https://cdn-images-1.medium.com/max/800/1*TbNEoPxxzhEOFxz0QjyS6A.png)
+![](../assets/img/POST(3)/37.png)
 
-**\## Detecting :**
+#### Detecting :
 
 _To Get the Plugins That a Wordpress Site Working With There Are Some Methods To Get That :_
 
@@ -675,21 +678,21 @@ _To Get the Plugins That a Wordpress Site Working With There Are Some Methods To
 
 4. **wpscan Enumeration ( — enumerate) \[Passive** + **Aggressive**\]
 
-![](https://cdn-images-1.medium.com/max/800/1*MBd3JL1MjtDPObgEuYoJzw.png)
+![](../assets/img/POST(3)/46.png)
 *wpscan Enumeration Modes*
 
 ```bash
 wpscan --url https://example.com/ --enumerate ap
 ```
 
-![](https://cdn-images-1.medium.com/max/800/1*5j8fT9nLN0eZG3hd7LSELA.png)
+![](../assets/img/POST(3)/47.png)
 *All Plugins Enumeration*
 
-**\## CVEs Exploits :**
+**## CVEs Exploits :**
 
 [packetstorm.news](https://packetstorm.news/ "https://packetstorm.news/")[](https://packetstorm.news/)
 
-![](https://cdn-images-1.medium.com/max/800/1*rhE9m1qgbT5v0uB6XtN8iw.png)
+![](../assets/img/POST(3)/39.png)
 *Search For Wordpress Plugins*
 
 [**OffSec's Exploit Database Archive**  
