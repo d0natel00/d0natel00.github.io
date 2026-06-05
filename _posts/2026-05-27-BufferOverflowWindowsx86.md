@@ -439,6 +439,6 @@ and It Happened, We got the Reverse Shell
 
 ![](../assets/img/POST(1)/cris.gif)
 
-I Hope You Understand Buffer overFlows
+I Hope You Understood Buffer overFlows
 
 Goodbye !
