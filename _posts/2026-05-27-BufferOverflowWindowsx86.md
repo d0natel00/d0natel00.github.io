@@ -8,8 +8,7 @@ image:
   alt: BOF
 ---
 
-Hello Friend, I Hope You Are Well Now . Today I'm Going To Explain the Basics of Buffer Over Flow and To Practice On What You Will Learn I Will Solve [Brainpan 1](https://vulnhub.com/entry/brainpan-1,51/) CTF . Let's Jump Into it !
-
+Hello Friend, I Hope You Are Well Now . Today I'm Going To Explain the Basics of Buffer Over Flow . Let's Jump Into it !
 
 ## What is Buffer Over Flow ?! :
 
