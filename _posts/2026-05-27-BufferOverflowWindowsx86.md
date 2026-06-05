@@ -441,4 +441,4 @@ and It Happened, We got the Reverse Shell
 
 I Hope You Understood Buffer overFlows
 
-Goodbye !
+Goodbye, My Friend !
