@@ -1,7 +1,28 @@
+<style>
+  /* The glowing animation class */
+  .glow-red-blue {
+    text-decoration: none; 
+    font-weight: bold;
+    animation: pulse-glow 4s infinite alternate ease-in-out;
+  }
+
+  /* The keyframes that dictate the color change */
+  @keyframes pulse-glow {
+    0% {
+      color: #ff3333; /* Red */
+      text-shadow: 0 0 8px rgba(255, 51, 51, 0.8), 0 0 15px rgba(255, 51, 51, 0.5);
+    }
+    100% {
+      color: #3388ff; /* Blue */
+      text-shadow: 0 0 8px rgba(51, 136, 255, 0.8), 0 0 15px rgba(51, 136, 255, 0.5);
+    }
+  }
+</style>
+
 <footer aria-label="Site Footer" class="d-flex flex-column flex-sm-row justify-content-between align-items-center text-muted gap-2 py-4 px-3 px-xl-5">
   <p>
     &copy; {{ 'now' | date: "%Y" }}
-    <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+    <a href="{{ site.social.links[0] }}" class="glow-red-blue">{{ site.social.name }}</a>.
     <span>All rights reserved.</span>
   </p>
 </footer>
