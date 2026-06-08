@@ -103,8 +103,7 @@ I Tried a Bunch of Stuff Until One Something Successed Which is `X-Forwarded-For
 ![](../assets/img/POST(5)/bypassed.png)
 *Captcha Triggered*
 
-Returning ID, and Cookies in the Header To the User Session. Which Completely Bypassed the Captcha Check That After Blocking !
-
+Returning ID, and Cookies in the Headers To the User Session. Which Completely Bypassed the Captcha Triggering After Blocking !
 
 I hope You Got any Useful idea from This Short Writeup .
 
