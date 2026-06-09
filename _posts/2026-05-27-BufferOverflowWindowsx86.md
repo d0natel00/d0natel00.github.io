@@ -2,7 +2,7 @@
 title: "Basic Buffer Over Flow Windows x86 Explained"
 date: 2026-05-28 00:00:00 +0000
 categories: [Low Level, x86Windows]
-tags: [Buffer Over Flow, Ctf]
+tags: [Buffer Over Flow]
 image:
   path: ../assets/img/POST(1)/thumb.jpg
   alt: BOF
