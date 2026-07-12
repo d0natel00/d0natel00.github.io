@@ -1,133 +1,65 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
 
 Hello Friend, I'm **KirolosMoheb**(_**d0natel00**_) This is My Blog To Publish any Thing Belongs To Security Like : Bugs I Found in Applications, CTF Writeups, Security Tips and Tricks, etc. That I Hope It Can Help All Pentesters !
 
-### Personal Links :
+You Can Take a Look on My [**_Hackerone Account_**](https://hackerone.com/kirolosmoheb?type=user)
 
-**Hackerone**_> [hackerone.com/kirolosmoheb?type=user](https://hackerone.com/kirolosmoheb?type=user)
+Medium:  [**_d0natel00.medium.com_**](https://d0natel00.medium.com/) 
 
-**Medium**_> [d0natel00.medium.com](https://d0natel00.medium.com/) 
-
-**Contact**_> [contact.me.kiro@gmail.com](mailto:contact.me.kiro@gmail.com) 
+Contact Me on [**_contact.me.kiro@gmail.com_**](mailto:contact.me.kiro@gmail.com) 
 
 <style>
-.logo-slider {
-  overflow: hidden;
-  width: 100%;
-  padding: 20px 0;
-  position: relative;
+.end-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 40px 0; 
+  width: 100%
 }
 
-.logo-slider::before,
-.logo-slider::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 50px;
-  height: 100%;
-  z-index: 2;
-}
-.logo-slider::before {
-  left: 0;
-  background: linear-gradient(to right, var(--main-bg), transparent);
-}
-.logo-slider::after {
-  right: 0;
-  background: linear-gradient(to left, var(--main-bg), transparent);
+.end-photos img {
+  width: 100%; /* Forces image to stretch and fill its column completely */
+  height: auto;
+  object-fit: contain; /* Keeps the whole image visible without cropping */
+  
+  /* Clean, subtle styling */
+  border-radius: 8px; 
+  background-color: #ffffff; 
+  padding: 5px; /* Minimal padding so the image itself stays huge */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; 
 }
 
-.logo-track {
-  display: flex;
-  width: max-content;
-  animation: scroll 8s linear infinite; 
+/* Hover Effect */
+.end-photos img:hover {
+  transform: translateY(-5px) scale(1.02); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.4); 
+  cursor: pointer;
 }
 
-.logo-track:hover {
-  animation-play-state: paused;
-}
-
-.logo-slide {
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo-slide img {
-  height: 75px; 
-  width: auto;
-  max-width: 200px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-}
-
-.logo-slide img:hover {
-  transform: scale(1.1);
-}
-
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); } 
-}
-
-/* The glowing animation class */
-.glow-gold-white {
-    text-decoration: none; 
-    font-weight: bold;
-    animation: pulse-glow2 4s infinite alternate ease-in-out;
-}
-
-/* The keyframes that dictate the color change */
-@keyframes pulse-glow2 {
-    0% {
-      color: #FFD700; /* Gold */
-      text-shadow: 0 0 8px rgba(255, 215, 0, 0.8), 0 0 15px rgba(255, 215, 0, 0.5);
-    }
-    100% {
-      color: #ffffff; /* White */
-      text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.5);
-    }
+/* Mobile Responsiveness: Stacks images on small screens so they don't get tiny */
+@media (max-width: 768px) {
+  .end-photos {
+    grid-template-columns: 1fr; /* 1 picture per row on phones */
+  }
 }
 </style>
 
-## Hacktivity :
+## Thanked From :
 
-- <a href="https://www.mars.com/" class="glow-gold-white">Mars</a>
-- <a href="https://luminor.ee" class="glow-gold-white">Luminor Bank</a>
+- [**_Mars_**](https://mars.com)
+- [**_Luminor Bank_**](https://luminor.ee)
 
 <!-- Company bar -->
 
-<div class="logo-slider">
-  <div class="logo-track">
-    <!-- FIRST SET OF LOGOS -->
-    <div class="logo-slide">
-      <a href="https://www.mars.com/" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/img/mars.webp" alt="Mars">
-      </a>
-    </div>
-    <div class="logo-slide">
-      <a href="https://luminor.ee" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/img/luminor.webp" alt="Luminor Bank">
-      </a>
-    </div>
-    <div class="logo-slide">
-      <a href="https://www.mars.com/" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/img/mars.webp" alt="Mars">
-      </a>
-    </div>
-    <div class="logo-slide">
-      <a href="https://luminor.ee" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/img/luminor.webp" alt="Luminor Bank">
-      </a>
-    </div>
-  </div>
+<!-- Grid End Photos Section -->
+<div class="end-photos">
+  <img src="../assets/img/mars2.png" alt="Mars">
+  <img src="../assets/img/mars1.png" alt="Mars">
+  <img src="../assets/img/luminor1.png" alt="Luminor Bank">
 </div>
 
 <!-- Company bar -->
-
-> Don't Hack Systems Without Explicit Authorization. Any Security Content in This Blog is Made For Education Only, So Use it Wisely !
-{: .prompt-warning }
