@@ -7,28 +7,30 @@ Hello Friend, I'm **KirolosMoheb**(_**0xh1jack**_) This is My Blog To Publish an
 
 You Can Take a Look on My [**_Hackerone Account_**](https://hackerone.com/0xh1jack?type=user)
 
-Medium:  [**_d0natel00.medium.com_**](https://0xh1jack.medium.com/) 
+Medium:  [**_0xh1jack.medium.com_**](https://0xh1jack.medium.com/) 
 
 Contact Me on [**_contact.me.kiro@gmail.com_**](mailto:contact.me.kiro@gmail.com) 
 
 <style>
 .end-photos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px;
   margin: 40px 0; 
-  width: 100%
+  width: 100%;
 }
 
 .end-photos img {
-  width: 100%; /* Forces image to stretch and fill its column completely */
-  height: auto;
-  object-fit: contain; /* Keeps the whole image visible without cropping */
+  width: 100%; 
+  /* ADDED: Keeps all images the exact same shape (Standard widescreen) */
+  aspect-ratio: 16 / 9; 
   
-  /* Clean, subtle styling */
+  /* CHANGED: "cover" zooms the image to fill the box completely, removing white gaps */
+  object-fit: cover; 
+  
   border-radius: 8px; 
   background-color: #ffffff; 
-  padding: 5px; /* Minimal padding so the image itself stays huge */
+  padding: 5px; 
   box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; 
 }
@@ -40,10 +42,10 @@ Contact Me on [**_contact.me.kiro@gmail.com_**](mailto:contact.me.kiro@gmail.com
   cursor: pointer;
 }
 
-/* Mobile Responsiveness: Stacks images on small screens so they don't get tiny */
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .end-photos {
-    grid-template-columns: 1fr; /* 1 picture per row on phones */
+    grid-template-columns: 1fr; 
   }
 }
 </style>
@@ -52,6 +54,7 @@ Contact Me on [**_contact.me.kiro@gmail.com_**](mailto:contact.me.kiro@gmail.com
 
 - [**_Mars_**](https://mars.com)
 - [**_Luminor Bank_**](https://luminor.ee)
+- [**_Abbott_**](https://abbott.com)
 
 <!-- Company bar -->
 
@@ -60,6 +63,7 @@ Contact Me on [**_contact.me.kiro@gmail.com_**](mailto:contact.me.kiro@gmail.com
   <img src="../assets/img/mars2.png" alt="Mars">
   <img src="../assets/img/mars1.png" alt="Mars">
   <img src="../assets/img/luminor1.png" alt="Luminor Bank">
+  <img src="../assets/img/abbott.png" alt="Abbott">
 </div>
 
 <!-- Company bar -->
