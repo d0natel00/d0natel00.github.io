@@ -50,7 +50,7 @@ Contact Me on [**_contact.me.kiro@gmail.com_**](mailto:contact.me.kiro@gmail.com
 }
 </style>
 
-## Thanked From :
+## Acknowledgements :
 
 - [**_Mars_**](https://mars.com)
 - [**_Luminor Bank_**](https://luminor.ee)
