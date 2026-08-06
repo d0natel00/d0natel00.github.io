@@ -77,6 +77,8 @@ _>_ [**_Luminor Bank_**](https://luminor.ee)
 
 _>_ [**_Abbott_**](https://abbott.com)
 
+_>_ [**_xygeni (Security Company)_**](https://xygeni.io/)
+
 <!-- Company bar -->
 
 <!-- Grid End Photos Section -->
@@ -85,6 +87,7 @@ _>_ [**_Abbott_**](https://abbott.com)
   <img src="../assets/img/mars1.png" alt="Mars">
   <img src="../assets/img/luminor1.png" alt="Luminor Bank">
   <img src="../assets/img/abbott.png" alt="Abbott">
+  <img src="../assets/img/xygeni.png" alt="Xygeni">
 </div>
 
 <!-- Company bar -->
