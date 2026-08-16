@@ -3,11 +3,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hello Friend, I'm **KirolosMoheb**(_**0xh1jack**_) This is My Blog To Publish any Thing Belongs To Security Like : Bugs I Found in Applications, CTF Writeups, Security Tips & Tricks, etc. That I Want to Share it with The Security Community !
+Hello Friend, I'm **KirolosMoheb**(_**d0natel00**_) This is My Blog To Publish any Thing Belongs To Security Like : Bugs I Found in Applications, CTF Writeups, Security Tips & Tricks, etc. That I Want to Share it with The Security Community !
 
 You Can Take a Look on My [**_Hackerone Account_**](https://hackerone.com/0xh1jack?type=user)
 
-Medium:  [**_0xh1jack.medium.com_**](https://0xh1jack.medium.com/) 
+Medium:  [**_d0natel00.medium.com_**](https://d0natel00.medium.com/) 
 
 Reach Me on [**_contact.me.kiro@gmail.com_**](mailto:contact.me.kiro@gmail.com) 
 
